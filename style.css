@@ -60,8 +60,9 @@ li{
     background-color: #0FA650;
     border-radius: 20px;
     max-width: 459px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
+
 
 /* .containers-header{
     display: flex;
@@ -86,8 +87,8 @@ li{
 
 /* section quem somos */
 .titulo-section{
-    max-width: 800px;
-    padding-left: 100px;
+    max-width: 700px;
+    
     font-size: 28px;  
     margin:0 auto;
 }
@@ -204,6 +205,68 @@ li{
     margin: 0 auto;
     text-align: center;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+/* media query */
+
+@media (max-width: 659px) {
+    .h2-oferecidos{
+        font-size: 20px;
+    }
+    .p-oferecidos{
+        font-size: 16px;
+        max-width: 300px;
+    }
+    .oqueoferecemos-logo{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .descricao-section-roxo{
+        flex-wrap: wrap;
+    }
+
+    .vp-logo{
+        max-width: 180px;
+        height: 180px;
+    }
+
+    .h2-footer{
+        font-size: 20px;
+    }
+
+    .h2-logo{
+        font-size: 22px;
+    }
+    
+}
+
+@media (max-width: 390px) {
+
+
+    .vp-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer{
+        gap: 10px;
+    }
+    
+}
+
 
 
 
