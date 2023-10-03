@@ -122,3 +122,90 @@ li{
 }
 
 /* Section o que oferecemos */
+
+.container-roxo{
+    display: flex;
+    background-color: #9F22F2;
+    
+
+}
+.descricao-section-roxo{
+    max-width: 700px;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.oqueoferecemos-logo{
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    height: 600px;
+    
+}
+
+.p-section-roxo{
+    padding-left: 50px;
+    padding-top: 15px;
+    max-width: 700px;
+    font-size: 28px;  
+    text-align: justify;
+    margin:0 auto;
+    line-height: 1.5;
+}
+.itens-oferecidos{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.h2-oferecidos{
+    padding-top: 10px;
+}
+
+/* Nossos projetos */
+.descricao-projetos{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.container-verde{
+    background-color: #2CF283;
+}
+
+.vp-logo{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.h2-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clientes{
+    margin: 0 auto;
+    width: 250px;
+    height: 355px;
+    background: rgba(255, 255, 255, 0.20);
+ 
+}
+
+.p-section-logo{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
